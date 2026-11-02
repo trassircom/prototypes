@@ -630,7 +630,7 @@ p {
     grid-template-columns: 1fr
         /* 1.18fr*/
     ;
-    gap: 75px;
+    gap: 0;
     align-items: start
 }
 
@@ -993,7 +993,7 @@ dialog .button {
     .licenses-layout,
     .partners-layout,
     .registration-layout {
-        gap: 40px
+        gap: 0
     }
 
     h2 {

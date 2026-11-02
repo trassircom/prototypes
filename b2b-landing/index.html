@@ -18,8 +18,8 @@
     <header class="header">
         <div class="wrap header-inner">
             <a href="#" class="brand" aria-label="DSSL — начало страницы"><img src="https://b2b.dssl.ru/local/templates/b2b.dssl.ru/images/logo.svg" alt="logo"></a>
-            <nav aria-label="Основная навигация"><a href="#advantages">Преимущества</a><a href="#support">Поддержка</a><a href="#how-it-works">Как это
-                    работает</a><a href="#partners">Партнёрская программа</a></nav>
+            <nav aria-label="Основная навигация"><a href="#advantages">Преимущества</a><a href="#support">Поддержка</a><a href="#partners">Партнёрская программа</a><a href="#how-it-works">Как это
+                    работает</a></nav>
             <div class="header-actions"><a class="login" href="https://b2b.dssl.ru/">Войти</a><a
                     class="button button-small" href="#registration">Регистрация</a></div>
         </div>
@@ -34,7 +34,7 @@
                         <p class="lead">Регистрируясь в B2B кабинете, вы автоматически подаете заявку на партнерство.
                             После обработки заявки вы получите персональную скидку и доступ к возможностям B2B кабинета.
                         </p>
-                        <button class="button" type="submit">Регистрация</button>
+                        <a href="#registration" class="button" type="submit">Регистрация</a>
                     </div>
                     <div class="partner-hero-screen">
                         <h3>Реальный интерфейс кабинета</h3>
@@ -349,10 +349,10 @@
         <!-- REGISTRATION -->
         <section class="section registration-section bonus-section" id="registration">
             <div class="wrap registration-layout">
+            <div class="section-heading">
+                    <h2>Регистрация</h2>
+                </div>
                 <form id="registration-form" class="form-card" novalidate>
-                    <div class="form-heading">
-                        <h3>Регистрация</h3><span>* Обязательные поля</span>
-                    </div>
                     <div class="form-row">
                         <div class="field"><label for="first-name">Имя <span>*</span></label><input id="first-name"
                                 name="firstName" autocomplete="given-name" required placeholder="Ваше имя">
@@ -386,6 +386,9 @@
                     <div class="field"><label for="phone">Контактный телефон <span>*</span></label><input id="phone"
                             name="phone" type="tel" autocomplete="tel" required placeholder="+7 (000) 000-00-00">
                         <p class="error" id="phone-error"></p>
+                    </div>
+                    <div class="form-heading">
+                        <span>* Обязательные поля</span>
                     </div>
                     <div class="consent-field"><label class="checkbox-label"><input type="checkbox" id="consent"
                                 name="consent" required><span>Я согласен на <a href="#">обработку персональных данных</a></span></label>
