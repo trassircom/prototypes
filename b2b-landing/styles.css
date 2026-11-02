@@ -686,7 +686,6 @@ p {
     border-radius: 14px;
     padding: 32px;
     box-shadow: 0 14px 32px #233e6410;
-    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -711,6 +710,10 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 18px
+}
+
+#registration-form {
+    max-width: 50%;
 }
 
 .field {
